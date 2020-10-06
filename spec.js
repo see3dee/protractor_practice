@@ -24,6 +24,6 @@ describe('Protractor Demo App', function() {
 
         add(5, 6);
 
-        expect(history.count()).toEqual(0); // This is wrong!
+        expect(history.count()).toEqual(3); // This is wrong!
     });
 });
