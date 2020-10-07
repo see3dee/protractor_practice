@@ -3,7 +3,7 @@ exports.config = {
     directConnect:true,
     framework: 'jasmine',
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['spec.js'],
+    specs: ['spec.js', 'todo-spec.js'],
     multiCapabilities: [
         {browserName: 'firefox'},
         {browserName: 'chrome'}]
